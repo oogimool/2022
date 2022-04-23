@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="controller">
+        
+        <button  class="check-btn" onclick=dun()> dun</button>     
+    </div>
+
+    <script type="text/javascript">
+  
+        function dun(){
+            for ( let i = 0; i <= 100; i ++ ){
+                if(i>=0 && i<60){
+                    document.write(i+"% нь F");
+                }else if(i>=60 && i<70){
+                    document.write(i+"% нь D");
+                }else if(i>=70 && i<81){
+                    document.write(i+"% нь C");
+                }else if(81>=0 && i<91){
+                    document.write(i+"% нь B");
+                }else{
+                    document.write(i+"% нь A");
+                }
+                
+
+                document.write("<br>");
+            }
+        }
+
+    
+        
+ 
+    </script>
+
+</body>
+</html>
